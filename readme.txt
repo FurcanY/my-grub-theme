@@ -1,0 +1,37 @@
+grub temasını görmek istiyorsak şu adımları uygulamalıyız.
+
+ilk önce grub2-theme-preview yoksa onu venv ile indirmeliyiz.
+python3 -m venv grybenv
+source grubenv/bin/activate
+
+venv içerisine girdikten sonra yükleyelim
+
+pip install grub2-theme-preview
+
+kurulduğunu anlamak için.
+
+grub2-theme-preview --help
+
+bir şeyler çıktıysa tamamdır.
+
+
+şimdi ise QEMU ile grub'umuzu görelim
+
+furkan-debian. yani home diznindeyken venv ile sanal ortamı açtıktan sonra:
+
+sudo $(which grub2-theme-preview) /home/furkan-debian/Projects/grub-theme
+
+bunu yazınca grub temamızı QEMU ile gösterecektir.
+
+eğer neler olduğunu görmek istiyorsan sonuna --debug yaz.
+
+resolution 1920x1080 için:
+
+sudo $(which grub2-theme-preview) --resolution 1920x1080 /home/furkan-debian/Projects/grub-theme
+
+
+background dosyasının ayarı için kod:
+
+convert background.png -define png:color-type=2 -depth 8 background-fixed.png
+
+bununla birlikte GRUB içerisinde kullanılabilir png oluşturulur.
