@@ -47,5 +47,6 @@ sudo update-grub
 
 Bütün bunları yaptıktan sonra `reboot` ile nihai sonucu görebilirsiniz.
 
+---
 
 Sisteminizde benimki gibi Dual-Boot yoksa büyük ihtimal windows yazılı kısım boş olacaktır. Belki de bambaşka bir durumda olacaktır. Belki sonrası için bunu çözerim. Belki de hiç bir şey yapmam çünkü bunu benden başka kimse kullanmayacağına eminim.
