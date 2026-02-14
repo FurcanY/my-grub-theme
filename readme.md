@@ -30,17 +30,18 @@ sudo cp ~/Projects/grub-theme/my_grub_theme/* /boot/grub/themes/furkan-theme/
 sudo vim /etc/default/grub
 
 ```
-aşağıdaki satır yoksa ekle.
+aşağıdaki satır yoksa ekle. Font eklenmezse sorun olabiliyor.
 
 ```bash
+
 GRUB_THEME="/boot/grub/themes/furkan-theme/theme.txt"
-GRUB_FONT="/boot/grub/themes/furkan-theme/font.pf2"
+GRUB_FONT="/boot/grub/themes/furkan-theme/pixel_operator.pf2"
 
 
 ```
 
 sonra grubu güncelle:
-```bash
+```bash 
 sudo update-grub
 ```
 

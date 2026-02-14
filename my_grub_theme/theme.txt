@@ -20,7 +20,7 @@ desktop-image: "background.png"
   left = 50%
   top = 15%
   align = "center"
-  font = "font.pf2"
+  font = "pixel_operator_bold.pf2"
   color = "#888888"
 }
 
@@ -33,13 +33,16 @@ desktop-image: "background.png"
   width = 40%
   height = 45%
 
-  item_font = "font.pf2"
+  item_font = "pixel_operator.pf2"
   item_color = "#cccccc"
   selected_item_color = "#910c1c"
 
   item_height = 45
   item_spacing = 12
 }
+
+
+
 
 # ======================
 # TIMEOUT TEXT
@@ -49,7 +52,6 @@ desktop-image: "background.png"
   left = 50%
   top = 92%
   align = "center"
-  font = "font.pf2"
+  font = "pixel_operator.pf2"
   color = "#444444"
 }
-

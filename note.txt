@@ -22,7 +22,7 @@ bir şeyler çıktıysa tamamdır.
 
 2) furkan-debian. yani home diznindeyken venv ile sanal ortamı açtıktan sonra:
 
--> sudo $(which grub2-theme-preview) /home/furkan-debian/Projects/grub-theme
+-> sudo $(which grub2-theme-preview) /home/furkan-debian/Projects/grub-theme/my_grub_theme
 
 bunu yazınca grub temamızı QEMU ile gösterecektir.
 
@@ -30,7 +30,7 @@ eğer neler olduğunu görmek istiyorsan sonuna --debug yaz.
 
 resolution 1920x1080 için:
 
--> sudo $(which grub2-theme-preview) --resolution 1920x1080 /home/furkan-debian/Projects/grub-theme
+-> sudo $(which grub2-theme-preview) --resolution 1920x1080 /home/furkan-debian/Projects/grub-theme/my_grub_theme
 
 
 -----------------background dosyasının ayarı için kod -----------------------------------
